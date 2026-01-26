@@ -1,0 +1,306 @@
+{
+    "en": {
+        "navigation": {
+            "about": "About",
+            "experience": "Experience",
+            "projects": "Projects",
+            "education": "Education",
+            "skills": "Skills",
+            "contact": "Contact"
+        },
+        "hero": {
+            "greeting": "Hello, I'm",
+            "title": "",
+            "subtitle": "Computer Engineer | Full Stack & Android Developer",
+            "description": "A dedicated software engineer with over 3 years of experience in software development, specializing in mobile, web and embedded systems. Proven ability to collaborate effectively with global teams (USA, Berlin, Amsterdam) using technologies like Kotlin, React, Node.js, Python and Docker.",
+            "contactBtn": "Get In Touch",
+            "projectsBtn": "View Projects",
+            "openToWork": "Open to Opportunities",
+            "downloadCV": "Download CV"
+        },
+        "sections": {
+            "about": "About Me",
+            "aboutSubtitle": "Who I am and what I do",
+            "experience": "Work Experience",
+            "experienceSubtitle": "My professional development journey",
+            "projects": "Projects",
+            "projectsSubtitle": "My proudest works",
+            "education": "Education",
+            "educationSubtitle": "My academic background",
+            "skills": "Technical Skills",
+            "skillsSubtitle": "Technologies I specialize in",
+            "certificates": "Certificates",
+            "certificatesSubtitle": "My professional development certificates",
+            "contact": "Contact",
+            "contactSubtitle": "Let's work together"
+        },
+        "about": {
+            "text1": "With over 3 years of software development experience, I have contributed to many different projects in my professional life. Thanks to my experience working with global teams, I have had the opportunity to develop projects that meet international standards.",
+            "text2": "While the applications I developed in the health technologies field reached 200+ users in early access, I also developed myself in team management with my leadership experience in electric vehicle projects.",
+            "text3": "While specializing in Android and web development, I continue my work actively in artificial intelligence and machine learning.",
+            "stats": {
+                "experience": "Years Experience",
+                "projects": "Completed Projects",
+                "users": "Users",
+                "satisfaction": "Client Satisfaction"
+            }
+        },
+        "experience": [
+            {
+                "title": "Software Engineer",
+                "company": "RealWorks",
+                "date": "Oct 2023 – Dec 2025 | Istanbul, Turkey",
+                "type": "Full-time",
+                "description": "I took an active role in a 10-person team developing mobile applications in the health field. I did frontend and backend development using Kotlin, React, Node.js and Flask.",
+                "achievements": [
+                    "I managed CI/CD processes, responsible for server management and domain operations",
+                    "I worked in technical areas such as database design, image processing and data analysis",
+                    "I participated in global projects by actively communicating with offices in America, Berlin and Amsterdam"
+                ]
+            },
+            {
+                "title": "Software Development Intern",
+                "company": "RealWorks",
+                "date": "May 2023 - October 2023 | Istanbul, Turkey",
+                "type": "Internship",
+                "description": "I developed health tracking applications with a 2-person team, got 200+ active users in early access. I developed a panel in the project where we developed a web-based health panel with a 2-person team (React + Firebase)."
+            },
+            {
+                "title": "Software Team Lead",
+                "company": "Ayvaz Elektromobil",
+                "date": "2021-2023 | Istanbul, Turkey",
+                "type": "Part-time",
+                "description": "I performed data collection and cleaning operations with microcontroller devices. I worked on data collection and transmission with wireless communication devices. I was involved in embedded system development, data integration and vehicle-related work."
+            }
+        ],
+        "projects": [
+            {
+                "title": "OMO Visitor Tracking System",
+                "description": "I developed a system that tracks the number of visitors through image processing in the football and basketball courts established by OMO. It was nominated for an award at Cannes.",
+                "overlay": "Nominated for an award at Cannes, this project offers an innovative approach in visitor management."
+            },
+            {
+                "title": "Papara NFC Business Card",
+                "description": "I developed a system with React, Firebase and Node.js for NFC-based card interaction. All components of the system were developed for the cards produced and promoted with visuals.",
+                "overlay": "Developed in collaboration with Papara, this project demonstrates the potential of NFC technology in the business world."
+            },
+            {
+                "title": "Money 20/20 Fair Projects",
+                "description": "I developed systems that were exhibited at the Money 20/20 fair (Amsterdam) for 2 consecutive years for event systems developed for Papara and Moka.",
+                "overlay": "Projects that shape the future of the fintech world, providing opportunities to gain sectoral experience."
+            },
+            {
+                "title": "Health Tracking Application",
+                "description": "I developed a health tracking application with a 2-person team, got 200+ active users in early access.",
+                "overlay": "A successful application developed in the field of health technologies that prioritizes user experience."
+            },
+            {
+                "title": "Web-Based Health Panel",
+                "description": "I developed a web-based health panel with a 2-person team, developing 20+ statistics and dynamic web interface panel (React + Firebase).",
+                "overlay": "Web-based health panel developed for companies with data visualization and analysis system."
+            },
+            {
+                "title": "Company HR and Onboarding System",
+                "description": "I worked in technical areas such as HR and onboarding panel production phase and data analysis for company internal processes.",
+                "overlay": "Comprehensive HR and employee onboarding system developed for the company."
+            }
+        ],
+        "education": {
+            "degree": "Computer Engineering Bachelor's",
+            "school": "Bolu Abant İzzet Baysal University",
+            "year": "2020 - 2024",
+            "gpa": "GPA: 3.13 / 4.00",
+            "description": "I received basic education in software engineering, algorithm design, data structures, artificial intelligence and machine learning. As a graduation project, I developed a mobile application in the field of health technologies."
+        },
+        "skills": {
+            "mobile": "Mobile Development",
+            "web": "Web Development",
+            "ai": "AI & Data Science",
+            "backend": "Backend & Database",
+            "devops": "DevOps & Tools"
+        },
+        "certificates": [
+            "Deep Learning Bootcamp - Global AI Hub (Oct 2022)",
+            "Data Science for Python & TensorFlow - BTK Academy (Jul 2023)",
+            "Artificial Intelligence and Algorithms Introduction - BTK Academy (May 2023)",
+            "Python for Machine Learning - Global AI Hub (Sep 2022)",
+            "Akbank Data Analysis Bootcamp - Global AI Hub (May 2023)",
+            "Digital Talent Summit Participation Certificate - United Latino Students Association (May 2023)",
+            "International Efficiency Challenge 2022 - Teknofest",
+            "International Efficiency Challenge 2023 - Teknofest (Assistant Coach)"
+        ],
+        "contact": {
+            "title": "Get In Touch",
+            "description": "I'm currently open to new opportunities. Feel free to contact me!",
+            "availabilityNotice": "I'm actively seeking new opportunities to contribute my expertise. Let's connect and explore possibilities!",
+            "phone": "Phone",
+            "email": "Email",
+            "form": {
+                "name": "Your Name",
+                "email": "Your Email",
+                "subject": "Subject",
+                "message": "Your Message",
+                "send": "Send Message"
+            }
+        },
+        "footer": {
+            "rights": "All rights reserved."
+        },
+        "notifications": {
+            "success": "Your message has been sent successfully!",
+            "error": "Please fill in all fields correctly.",
+            "validation": "Please check the required fields."
+        }
+    },
+    "tr": {
+        "navigation": {
+            "about": "Hakkımda",
+            "experience": "Deneyim",
+            "projects": "Projeler",
+            "education": "Eğitim",
+            "skills": "Yetenekler",
+            "contact": "İletişim"
+        },
+        "hero": {
+            "greeting": "Merhaba, Ben",
+            "title": "",
+            "subtitle": "Bilgisayar Mühendisi | Full Stack & Android Geliştirici",
+            "description": "Mobil, web ve gömülü sistemlerde 3+ yıllık yazılım geliştirme deneyimine sahip bilgisayar mühendisi. Kotlin, React, Node.js, Python ve Docker gibi teknolojilerle çalışma deneyimim var. Amerika, Berlin ve Amsterdam ofisleriyle aktif iletişim kurduğum, global projelerde yer aldığım deneyimlere sahip oldum.",
+            "contactBtn": "İletişime Geç",
+            "projectsBtn": "Projelerimi Gör"
+        },
+        "sections": {
+            "about": "Hakkımda",
+            "aboutSubtitle": "Kim olduğum ve neler yaptığım",
+            "experience": "İş Deneyimi",
+            "experienceSubtitle": "Profesyonel gelişim yolculuğum",
+            "projects": "Projeler",
+            "projectsSubtitle": "Gurur duyduğum çalışmalarım",
+            "education": "Eğitim",
+            "educationSubtitle": "Akademik geçmişim",
+            "skills": "Teknik Yetenekler",
+            "skillsSubtitle": "Uzman olduğum teknolojiler",
+            "certificates": "Sertifikalar",
+            "certificatesSubtitle": "Profesyonel gelişim sertifikalarım",
+            "contact": "İletişim",
+            "contactSubtitle": "Birlikte çalışalım"
+        },
+        "about": {
+            "text1": "3+ yıllık yazılım geliştirme deneyimi ile profesyonel hayatımda birçok farklı projeye imza attım. Global ekiplerle çalışma tecrübem sayesinde uluslararası standartlarda projeler geliştirme fırsatı buldum.",
+            "text2": "Sağlık teknolojileri alanında geliştirdiğim uygulamalar erken erişimde 200+ kullanıcıya ulaşırken, elektrikli araç projelerindeki liderlik deneyimim ile takım yönetimi konusunda da kendimi geliştirdim.",
+            "text3": "Android ve web geliştirme alanlarında uzmanlaşırken, yapay zeka ve makine öğrenmesi konularında da aktif olarak çalışmalarımı sürdürüyorum.",
+            "stats": {
+                "experience": "Yıl Deneyim",
+                "projects": "Tamamlanan Proje",
+                "users": "Kullanıcı",
+                "satisfaction": "Müşteri Memnuniyeti"
+            }
+        },
+        "experience": [
+            {
+                "title": "Software Engineer",
+                "company": "RealWorks",
+                "date": "2023 – 2024 | İstanbul, Türkiye",
+                "type": "Tam Zamanlı",
+                "description": "Sağlık alanında mobil uygulama geliştiren 10 kişilik bir ekipte aktif görev aldım. Kotlin, React, Node.js ve Flask kullanarak frontend ve backend geliştirme yaptım.",
+                "achievements": [
+                    "CI/CD süreçlerini yönettim, sunucu yönetimi ve domain işlemlerinden sorumlu oldum",
+                    "Veritabanı tasarımı, görüntü işleme ve veri analizi gibi teknik alanlarda çalıştım",
+                    "Amerika, Berlin ve Amsterdam ofisleriyle aktif iletişim kurarak global projelerde yer aldım"
+                ]
+            },
+            {
+                "title": "Yazılım Geliştirme Stajyeri",
+                "company": "RealWorks",
+                "date": "Mayıs 2023 - Ekim 2023 | İstanbul, Türkiye",
+                "type": "Staj",
+                "description": "Sağlık takip uygulamalarını 2 kişilik ekiple geliştirdim, erken erişimde 200+ aktif kullanıcı aldım. Web tabanlı sağlık panelini 2 kişilik ekiple geliştirdiğimiz projede panel geliştirdim (React + Firebase)."
+            },
+            {
+                "title": "Yazılım Ekibi Lideri",
+                "company": "Ayvaz Elektromobil",
+                "date": "2021 - 2023 | İstanbul, Türkiye",
+                "type": "Yarı Zamanlı",
+                "description": "Mikrodenetleyici cihazlarla veri toplama ve temizleme işlemleri yaptım. Kablosuz haberleşme cihazlarıyla veri toplama ve aktarma konularında çalıştım. Gömülü sistem geliştirme, veri entegrasyonu ve araca bağlı çalışmalarda yer aldım."
+            }
+        ],
+        "projects": [
+            {
+                "title": "OMO Ziyaretçi Takip Sistemi",
+                "description": "OMO'nun kurduğu futbol ve basketbol sahalarında, görüntü işleme ile ziyaretçi sayılarını takip eden sistem geliştirdim. Cannes'da ödüle aday gösterildi.",
+                "overlay": "Cannes adaylığı kazanan bu proje, ziyaretçi yönetimi alanında yenilikçi bir yaklaşım sunuyor."
+            },
+            {
+                "title": "Papara NFC Business Card",
+                "description": "NFC tabanlı kart etkileşimi için React, Firebase ve Node.js ile sistem geliştirdim. Üretilen ve görsellerle tanıtılan kartlar için sistemin üretildiği tüm bileşenlerin geliştirildi.",
+                "overlay": "Papara ile işbirliği yaparak geliştirilen, NFC teknolojisinin iş dünyasındaki potansiyelini gösteren proje."
+            },
+            {
+                "title": "Money 20/20 Fuarı Projeleri",
+                "description": "Papara ve Moka için geliştirilen etkinlik sistemlerin 2 yıl üst üste Money 20/20 fuarında (Amsterdam) sergilenen sistemleri geliştirdim.",
+                "overlay": "Fintech dünyasının geleceğini şekillendiren projeler ile sektörel deneyim kazanma fırsatı."
+            },
+            {
+                "title": "Sağlık Takip Uygulaması",
+                "description": "Sağlık takip uygulamasını 2 kişilik ekiple geliştirdim, erken erişimde 200+ aktif kullanıcı aldım.",
+                "overlay": "Sağlık teknolojileri alanında geliştirilen, kullanıcı deneyimini ön planda tutan başarılı uygulama."
+            },
+            {
+                "title": "Web Tabanlı Sağlık Paneli",
+                "description": "Web tabanlı sağlık panelini 2 kişilik ekiple geliştirdiğimiz projede 20+ statistic ve dinamik web arayüz paneli geliştirdim (React + Firebase).",
+                "overlay": "Şirketler için geliştirilmiş web tabanlı sağlık paneli ile veri görselleştirme ve analiz sistemi."
+            },
+            {
+                "title": "Şirket için HR ve Onboarding Sistemi",
+                "description": "Şirket iç işleyiş için İK ve onboarding paneli üretim aşaması ve veri analizi gibi teknik alanlarda çalıştım.",
+                "overlay": "Şirket için geliştirilen kapsamlı İK ve çalışan onboarding sistemi."
+            }
+        ],
+        "education": {
+            "degree": "Bilgisayar Mühendisliği Lisans",
+            "school": "Bolu Abant İzzet Baysal Üniversitesi",
+            "year": "2020 - 2024",
+            "gpa": "GPA: 3.13 / 4.00",
+            "description": "Yazılım mühendisliği, algoritma tasarımı, veri yapıları, yapay zeka ve makine öğrenmesi konularında temel eğitim aldım. Mezuniyet projesi olarak sağlık teknolojileri alanında bir mobil uygulama geliştirdim."
+        },
+        "skills": {
+            "mobile": "Mobil Geliştirme",
+            "web": "Web Geliştirme",
+            "ai": "AI & Veri Bilimi",
+            "backend": "Backend & Veritabanı",
+            "devops": "DevOps & Araçlar"
+        },
+        "certificates": [
+            "Deep Learning Bootcamp - Global AI Hub (Ekim 2022)",
+            "Veri Bilimi için Python ve TensorFlow - BTK Akademi (Temmuz 2023)",
+            "Yapay Zeka ve Algoritmalara Giriş - BTK Akademi (Mayıs 2023)",
+            "Python for Machine Learning - Global AI Hub (Eylül 2022)",
+            "Akbank Veri Analizi Bootcamp - Global AI Hub (Mayıs 2023)",
+            "Digital Talent Summit Katılım Sertifikası - United Latino Students Association (Mayıs 2023)",
+            "Uluslararası Efficiency Challenge 2022 - Teknofest",
+            "Uluslararası Efficiency Challenge 2023 - Teknofest (Başkan Yardımcısı)"
+        ],
+        "contact": {
+            "title": "İletişime Geçin",
+            "description": "Şu anda yeni fırsatlara açığım. Benimle iletişime geçmekten çekinmeyin!",
+            "availabilityNotice": "Yeni projeler ve fırsatlar için aktif olarak aradığım yapı. Benimle iletişime geçmekten çekinmeyin!",
+            "phone": "Telefon",
+            "email": "Email",
+            "form": {
+                "name": "Adınız",
+                "email": "E-posta Adresiniz",
+                "subject": "Konu",
+                "message": "Mesajınız",
+                "send": "Mesaj Gönder"
+            }
+        },
+        "footer": {
+            "rights": "Tüm hakları saklıdır."
+        },
+        "notifications": {
+            "success": "Mesajınız başarıyla gönderildi!",
+            "error": "Lütfen tüm alanları doğru şekilde doldurunuz.",
+            "validation": "Lütfen gerekli alanları kontrol ediniz."
+        }
+    }
+}
