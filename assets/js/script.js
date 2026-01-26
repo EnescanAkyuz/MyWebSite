@@ -1,6 +1,3 @@
-// EmailJS Configuration
-emailjs.init('zrmms1b8p488H-694');
-
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all functions
@@ -284,10 +281,10 @@ function initContactForm() {
                 email: formData.email,
                 subject: formData.subject,
                 message: formData.message,
-                to_email: 'enescan@gmail.com' // Change this to your email
+                to_email: 'enescandev@gmail.com'
             };
             
-            emailjs.send('service_4ce2j94', 'template_2h8v8ng', templateParams)
+            emailjs.send('service_eaz99dk', 'template_2h8v8ng', templateParams)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     showNotification('Mesajınız başarıyla gönderildi!', 'success');
