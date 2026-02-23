@@ -219,7 +219,7 @@ body {
     grid-template-columns: 1fr auto;
     gap: var(--spacing-12);
     align-items: center;
-    padding-top: 70px;
+    padding-top: 100px;
     position: relative;
     z-index: 1;
 }
@@ -665,6 +665,17 @@ section {
     transition: var(--transition-normal);
     position: relative;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .project-card:hover {
@@ -692,6 +703,9 @@ section {
 
 .project-content {
     padding: var(--spacing-6);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-title {
@@ -705,6 +719,7 @@ section {
     color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: var(--spacing-4);
+    flex-grow: 1;
 }
 
 .project-tech {
@@ -712,6 +727,7 @@ section {
     flex-wrap: wrap;
     gap: var(--spacing-2);
     margin-bottom: var(--spacing-4);
+    margin-top: auto;
 }
 
 .tech-tag {
@@ -769,6 +785,9 @@ section {
 .education-content {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-6);
 }
 
 .education-card {
@@ -1019,8 +1038,9 @@ section {
     margin-bottom: var(--spacing-1);
 }
 
-.contact-details p {
+.contact-details a {
     color: var(--text-secondary);
+    text-decoration: none;
 }
 
 .contact-form {

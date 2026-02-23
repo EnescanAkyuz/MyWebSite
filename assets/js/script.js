@@ -44,48 +44,61 @@ function initNavigation() {
 
     // Navbar scroll effect
     let lastScrollTop = 0;
+    let navbarTicking = false;
     window.addEventListener('scroll', function() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        if (scrollTop > 100) {
-            navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-        } else {
-            navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-            navbar.style.boxShadow = 'none';
-        }
+        if (!navbarTicking) {
+            requestAnimationFrame(function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-        // Hide/show navbar on scroll
-        if (scrollTop > lastScrollTop && scrollTop > 200) {
-            navbar.style.transform = 'translateY(-100%)';
-        } else {
-            navbar.style.transform = 'translateY(0)';
+                if (scrollTop > 100) {
+                    navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                    navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+                } else {
+                    navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                    navbar.style.boxShadow = 'none';
+                }
+
+                // Hide/show navbar on scroll
+                if (scrollTop > lastScrollTop && scrollTop > 200) {
+                    navbar.style.transform = 'translateY(-100%)';
+                } else {
+                    navbar.style.transform = 'translateY(0)';
+                }
+                lastScrollTop = scrollTop;
+                navbarTicking = false;
+            });
+            navbarTicking = true;
         }
-        lastScrollTop = scrollTop;
-    });
+    }, { passive: true });
 
     // Active section highlighting
     const sections = document.querySelectorAll('section[id]');
-    
-    window.addEventListener('scroll', function() {
-        let current = '';
-        
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            
-            if (pageYOffset >= sectionTop - 200) {
-                current = section.getAttribute('id');
-            }
-        });
+    let sectionTicking = false;
 
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === `#${current}`) {
-                link.classList.add('active');
-            }
-        });
-    });
+    window.addEventListener('scroll', function() {
+        if (!sectionTicking) {
+            requestAnimationFrame(function() {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+                sectionTicking = false;
+            });
+            sectionTicking = true;
+        }
+    }, { passive: true });
 }
 
 // Smooth scroll functionality
@@ -227,15 +240,28 @@ function initTypewriter() {
 
 // Parallax effect
 function initParallax() {
+    // Disable parallax on mobile/touch devices to prevent scroll jank
+    const isMobile = window.matchMedia('(max-width: 768px)').matches ||
+                     ('ontouchstart' in window) ||
+                     (navigator.maxTouchPoints > 0);
+    if (isMobile) return;
+
+    const parallaxElements = document.querySelectorAll('.hero');
+    let parallaxTicking = false;
+
     window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const parallaxElements = document.querySelectorAll('.hero');
-        
-        parallaxElements.forEach(element => {
-            const speed = 0.5;
-            element.style.transform = `translateY(${scrolled * speed}px)`;
-        });
-    });
+        if (!parallaxTicking) {
+            requestAnimationFrame(function() {
+                const scrolled = window.pageYOffset;
+                parallaxElements.forEach(element => {
+                    const speed = 0.3;
+                    element.style.transform = `translateY(${scrolled * speed}px)`;
+                });
+                parallaxTicking = false;
+            });
+            parallaxTicking = true;
+        }
+    }, { passive: true });
 }
 
 // Contact form handling
@@ -750,17 +776,31 @@ function updateProjectsSection(langData) {
 }
 
 function updateEducationSection(langData) {
-    const degree = document.querySelector('.education-degree');
-    const school = document.querySelector('.education-school');
-    const year = document.querySelector('.education-year');
-    const gpa = document.querySelector('.education-gpa');
-    const description = document.querySelector('.education-description');
-    
-    if (degree) degree.textContent = langData.education.degree;
-    if (school) school.textContent = langData.education.school;
-    if (year) year.textContent = langData.education.year;
-    if (gpa) gpa.textContent = langData.education.gpa;
-    if (description) description.textContent = langData.education.description;
+    const educationCards = document.querySelectorAll('.education-card');
+    educationCards.forEach((card, index) => {
+        if (langData.education[index]) {
+            const edu = langData.education[index];
+            const degree = card.querySelector('.education-degree');
+            const school = card.querySelector('.education-school');
+            const year = card.querySelector('.education-year');
+            const gpa = card.querySelector('.education-gpa');
+            const description = card.querySelector('.education-description');
+            
+            if (degree) degree.textContent = edu.degree;
+            if (school) school.textContent = edu.school;
+            if (year) year.textContent = edu.year;
+            if (description) description.textContent = edu.description;
+            
+            if (gpa) {
+                if (edu.gpa) {
+                    gpa.textContent = edu.gpa;
+                    gpa.style.display = 'block';
+                } else {
+                    gpa.style.display = 'none';
+                }
+            }
+        }
+    });
 }
 
 function updateSkillsSection(langData) {

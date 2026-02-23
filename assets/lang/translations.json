@@ -37,7 +37,7 @@
         "about": {
             "text1": "With over 3 years of software development experience, I have contributed to many different projects in my professional life. Thanks to my experience working with global teams, I have had the opportunity to develop projects that meet international standards.",
             "text2": "While the applications I developed in the health technologies field reached 200+ users in early access, I also developed myself in team management with my leadership experience in electric vehicle projects.",
-            "text3": "While specializing in Android and web development, I continue my work actively in artificial intelligence and machine learning.",
+            "text3": "While specializing in Android and web development, I continue my work actively in artificial intelligence and machine learning. My native language is Turkish, and I have an intermediate level of English.",
             "stats": {
                 "experience": "Years Experience",
                 "projects": "Completed Projects",
@@ -51,11 +51,12 @@
                 "company": "RealWorks",
                 "date": "Oct 2023 – Dec 2025 | Istanbul, Turkey",
                 "type": "Full-time",
-                "description": "I took an active role in a 10-person team developing mobile applications in the health field. I did frontend and backend development using Kotlin, React, Node.js and Flask.",
+                "description": "I worked as a web and mobile developer in a 10-person team in the health technologies field. I developed end-to-end solutions using Kotlin, React, Node.js, and Flask.",
                 "achievements": [
-                    "I managed CI/CD processes, responsible for server management and domain operations",
-                    "I worked in technical areas such as database design, image processing and data analysis",
-                    "I participated in global projects by actively communicating with offices in America, Berlin and Amsterdam"
+                    "Took an active role in developing Android applications such as Haloscape, MyMeds, Routinly, Heartivia, Commito, and Stresease.",
+                    "Set up and managed Node.js and MySQL-based backend systems running on Docker.",
+                    "Developed more than 20 static and dynamic web projects, including corporate websites, career sites, and admin panels.",
+                    "Developed interactive artificial intelligence projects exhibited at international fairs for many brands."
                 ]
             },
             {
@@ -63,14 +64,14 @@
                 "company": "RealWorks",
                 "date": "May 2023 - October 2023 | Istanbul, Turkey",
                 "type": "Internship",
-                "description": "I developed health tracking applications with a 2-person team, got 200+ active users in early access. I developed a panel in the project where we developed a web-based health panel with a 2-person team (React + Firebase)."
+                "description": "I took part in developing machine learning algorithms on health data, data preprocessing, and modeling processes. I contributed to the development of a web interface for a news platform. I actively participated in professional scrum and task tracking processes using Jira and Git."
             },
             {
-                "title": "Software Team Lead",
+                "title": "Software Lead | Embedded System & UI Developer",
                 "company": "Ayvaz Elektromobil",
-                "date": "2021-2023 | Istanbul, Turkey",
+                "date": "2020 - 2023 | Istanbul, Turkey",
                 "type": "Part-time",
-                "description": "I performed data collection and cleaning operations with microcontroller devices. I worked on data collection and transmission with wireless communication devices. I was involved in embedded system development, data integration and vehicle-related work."
+                "description": "I managed the software part of the electric vehicle project participating in the TÜBİTAK Efficiency Challenge. I developed embedded software on STM32 and Arduino-based boards with C. I established the telemetry infrastructure with C# and developed the team's official website using HTML, CSS, and JavaScript."
             }
         ],
         "projects": [
@@ -85,9 +86,9 @@
                 "overlay": "Developed in collaboration with Papara, this project demonstrates the potential of NFC technology in the business world."
             },
             {
-                "title": "Money 20/20 Fair Projects",
-                "description": "I developed systems that were exhibited at the Money 20/20 fair (Amsterdam) for 2 consecutive years for event systems developed for Papara and Moka.",
-                "overlay": "Projects that shape the future of the fintech world, providing opportunities to gain sectoral experience."
+                "title": "Moka United Event System",
+                "description": "In addition to the NFC business card system, I developed a system that detects the person in front of the camera using image processing and takes 3 pose photos. I added virtual backgrounds to these photos, created 3-second GIFs, and presented them to users via QR code.",
+                "overlay": "An interactive fair experience combining image processing and NFC technologies."
             },
             {
                 "title": "Health Tracking Application",
@@ -103,15 +104,38 @@
                 "title": "Company HR and Onboarding System",
                 "description": "I worked in technical areas such as HR and onboarding panel production phase and data analysis for company internal processes.",
                 "overlay": "Comprehensive HR and employee onboarding system developed for the company."
+            },
+            {
+                "title": "Aroma Perfume Bar",
+                "description": "I developed an end-to-end e-commerce system using React.js, Next.js, Node.js, and Supabase. Payment infrastructure: PayTR.",
+                "overlay": "A fully comprehensive e-commerce platform developed with modern technologies and secure payment infrastructure."
+            },
+            {
+                "title": "ATS Score",
+                "description": "I developed a web application where users can upload their resumes and analyze their ATS compatibility.",
+                "overlay": "An innovative platform that measures and analyzes the compatibility of resumes with ATS systems."
+            },
+            {
+                "title": "En Yakın Yer (Nearest Place)",
+                "description": "A highly mobile-compatible web platform that allows users to easily find the nearest pharmacy. Support for different types of places will be added in the future.",
+                "overlay": "A user-friendly and extensible location-based place finding platform."
             }
         ],
-        "education": {
-            "degree": "Computer Engineering Bachelor's",
-            "school": "Bolu Abant İzzet Baysal University",
-            "year": "2020 - 2024",
-            "gpa": "GPA: 3.13 / 4.00",
-            "description": "I received basic education in software engineering, algorithm design, data structures, artificial intelligence and machine learning. As a graduation project, I developed a mobile application in the field of health technologies."
-        },
+        "education": [
+            {
+                "degree": "Computer Engineering Master's",
+                "school": "Bolu Abant İzzet Baysal University",
+                "year": "Feb 2026 - Present",
+                "description": "I started my Master's degree in Computer Engineering at Bolu Abant İzzet Baysal University this month."
+            },
+            {
+                "degree": "Computer Engineering Bachelor's",
+                "school": "Bolu Abant İzzet Baysal University",
+                "year": "2020 - 2024",
+                "gpa": "GPA: 3.16 / 4.00",
+                "description": "I received basic education in software engineering, algorithm design, data structures, artificial intelligence and machine learning. As a graduation project, I developed a mobile application in the field of health technologies."
+            }
+        ],
         "skills": {
             "mobile": "Mobile Development",
             "web": "Web Development",
@@ -188,7 +212,7 @@
         "about": {
             "text1": "3+ yıllık yazılım geliştirme deneyimi ile profesyonel hayatımda birçok farklı projeye imza attım. Global ekiplerle çalışma tecrübem sayesinde uluslararası standartlarda projeler geliştirme fırsatı buldum.",
             "text2": "Sağlık teknolojileri alanında geliştirdiğim uygulamalar erken erişimde 200+ kullanıcıya ulaşırken, elektrikli araç projelerindeki liderlik deneyimim ile takım yönetimi konusunda da kendimi geliştirdim.",
-            "text3": "Android ve web geliştirme alanlarında uzmanlaşırken, yapay zeka ve makine öğrenmesi konularında da aktif olarak çalışmalarımı sürdürüyorum.",
+            "text3": "Android ve web geliştirme alanlarında uzmanlaşırken, yapay zeka ve makine öğrenmesi konularında da aktif olarak çalışmalarımı sürdürüyorum. Ana dilim Türkçe olup, orta seviyede İngilizce bilmekteyim.",
             "stats": {
                 "experience": "Yıl Deneyim",
                 "projects": "Tamamlanan Proje",
@@ -200,13 +224,14 @@
             {
                 "title": "Software Engineer",
                 "company": "RealWorks",
-                "date": "2023 – 2024 | İstanbul, Türkiye",
+                "date": "Ekim 2023 – Aralık 2025 | İstanbul, Türkiye",
                 "type": "Tam Zamanlı",
-                "description": "Sağlık alanında mobil uygulama geliştiren 10 kişilik bir ekipte aktif görev aldım. Kotlin, React, Node.js ve Flask kullanarak frontend ve backend geliştirme yaptım.",
+                "description": "Sağlık teknolojileri alanında 10 kişilik ekipte web ve mobil geliştirici olarak görev aldım. Kotlin, React, Node.js ve Flask kullanarak uçtan uca çözümler geliştirdim.",
                 "achievements": [
-                    "CI/CD süreçlerini yönettim, sunucu yönetimi ve domain işlemlerinden sorumlu oldum",
-                    "Veritabanı tasarımı, görüntü işleme ve veri analizi gibi teknik alanlarda çalıştım",
-                    "Amerika, Berlin ve Amsterdam ofisleriyle aktif iletişim kurarak global projelerde yer aldım"
+                    "Haloscape, MyMeds, Routinly, Heartivia, Commito ve Stresease gibi Android uygulamalarının geliştirilmesinde aktif rol aldım.",
+                    "Docker üzerinde çalışan Node.js ve MySQL tabanlı backend sistemlerini kurdum ve yönettim.",
+                    "Kurumsal web siteleri, kariyer siteleri ve admin panelleri dahil olmak üzere 20'den fazla statik ve dinamik web projesi geliştirdim.",
+                    "Bir çok marka için uluslararası fuarlarda sergilenen interaktif yapay zeka projeleri geliştirdim."
                 ]
             },
             {
@@ -214,14 +239,14 @@
                 "company": "RealWorks",
                 "date": "Mayıs 2023 - Ekim 2023 | İstanbul, Türkiye",
                 "type": "Staj",
-                "description": "Sağlık takip uygulamalarını 2 kişilik ekiple geliştirdim, erken erişimde 200+ aktif kullanıcı aldım. Web tabanlı sağlık panelini 2 kişilik ekiple geliştirdiğimiz projede panel geliştirdim (React + Firebase)."
+                "description": "Sağlık verileri üzerinde makine öğrenmesi algoritmaları geliştirme, veri ön işleme ve modelleme süreçlerinde görev aldım. Haber platformu için web arayüzü geliştirilmesine katkı sağladım. Jira ve Git kullanarak profesyonel scrum ve görev takip süreçlerine aktif olarak dahil oldum."
             },
             {
-                "title": "Yazılım Ekibi Lideri",
+                "title": "Yazılım Sorumlusu | Gömülü Sistem & Arayüz Geliştirici",
                 "company": "Ayvaz Elektromobil",
-                "date": "2021 - 2023 | İstanbul, Türkiye",
+                "date": "2020 - 2023 | İstanbul, Türkiye",
                 "type": "Yarı Zamanlı",
-                "description": "Mikrodenetleyici cihazlarla veri toplama ve temizleme işlemleri yaptım. Kablosuz haberleşme cihazlarıyla veri toplama ve aktarma konularında çalıştım. Gömülü sistem geliştirme, veri entegrasyonu ve araca bağlı çalışmalarda yer aldım."
+                "description": "TÜBİTAK Efficiency Challenge yarışmasına katılan elektrikli araç projesinde yazılım kısmını yönettim. C ile STM32 ve Arduino tabanlı kartlar üzerinde gömülü yazılım geliştirdim. C# ile telemetri altyapısını kurdum ve takımın resmi web sitesini HTML, CSS ve JavaScript kullanarak geliştirdim."
             }
         ],
         "projects": [
@@ -236,9 +261,9 @@
                 "overlay": "Papara ile işbirliği yaparak geliştirilen, NFC teknolojisinin iş dünyasındaki potansiyelini gösteren proje."
             },
             {
-                "title": "Money 20/20 Fuarı Projeleri",
-                "description": "Papara ve Moka için geliştirilen etkinlik sistemlerin 2 yıl üst üste Money 20/20 fuarında (Amsterdam) sergilenen sistemleri geliştirdim.",
-                "overlay": "Fintech dünyasının geleceğini şekillendiren projeler ile sektörel deneyim kazanma fırsatı."
+                "title": "Moka United Etkinlik Sistemi",
+                "description": "NFC kartvizit sisteminin yanı sıra, görüntü işleme ile kamera karşısındaki kişiyi algılayıp 3 poz fotoğrafını çeken bir sistem geliştirdim. Bu fotoğraflara sanal arkaplan ekleyerek 3 saniyelik GIF'ler oluşturdum ve QR kod ile kullanıcılara sundum.",
+                "overlay": "Görüntü işleme ve NFC teknolojilerini birleştiren interaktif fuar deneyimi."
             },
             {
                 "title": "Sağlık Takip Uygulaması",
@@ -254,15 +279,38 @@
                 "title": "Şirket için HR ve Onboarding Sistemi",
                 "description": "Şirket iç işleyiş için İK ve onboarding paneli üretim aşaması ve veri analizi gibi teknik alanlarda çalıştım.",
                 "overlay": "Şirket için geliştirilen kapsamlı İK ve çalışan onboarding sistemi."
+            },
+            {
+                "title": "Aroma Parfüm Bar",
+                "description": "React.js, Next.js, Node.js ve Supabase kullanarak uçtan uca e-ticaret sistemi geliştirdim. Ödeme altyapısı: PayTR.",
+                "overlay": "Modern teknolojilerle geliştirilmiş, güvenli ödeme altyapısına sahip tam kapsamlı e-ticaret platformu."
+            },
+            {
+                "title": "ATS Score",
+                "description": "Kullanıcıların özgeçmişlerini yükleyerek ATS uyumluluğunu analiz edebildiği web uygulaması geliştirdim.",
+                "overlay": "Özgeçmişlerin ATS sistemlerine uygunluğunu ölçen ve analiz eden yenilikçi platform."
+            },
+            {
+                "title": "En Yakın Yer",
+                "description": "Kullanıcıların en yakın eczaneyi kolayca bulabilmesini sağlayan, yüksek mobil uyumluluğa sahip web platformu. Gelecekte farklı mekan türleri için de destek eklenecektir.",
+                "overlay": "Konum tabanlı hizmetler sunan, kullanıcı dostu ve genişletilebilir mekan bulma platformu."
             }
         ],
-        "education": {
-            "degree": "Bilgisayar Mühendisliği Lisans",
-            "school": "Bolu Abant İzzet Baysal Üniversitesi",
-            "year": "2020 - 2024",
-            "gpa": "GPA: 3.13 / 4.00",
-            "description": "Yazılım mühendisliği, algoritma tasarımı, veri yapıları, yapay zeka ve makine öğrenmesi konularında temel eğitim aldım. Mezuniyet projesi olarak sağlık teknolojileri alanında bir mobil uygulama geliştirdim."
-        },
+        "education": [
+            {
+                "degree": "Bilgisayar Mühendisliği Yüksek Lisans",
+                "school": "Bolu Abant İzzet Baysal Üniversitesi",
+                "year": "Şubat 2026 - Devam Ediyor",
+                "description": "Bolu Abant İzzet Baysal Üniversitesi'nde Bilgisayar Mühendisliği alanında yüksek lisans eğitimime bu ay başladım."
+            },
+            {
+                "degree": "Bilgisayar Mühendisliği Lisans",
+                "school": "Bolu Abant İzzet Baysal Üniversitesi",
+                "year": "2020 - 2024",
+                "gpa": "GPA: 3.16 / 4.00",
+                "description": "Yazılım mühendisliği, algoritma tasarımı, veri yapıları, yapay zeka ve makine öğrenmesi konularında temel eğitim aldım. Mezuniyet projesi olarak sağlık teknolojileri alanında bir mobil uygulama geliştirdim."
+            }
+        ],
         "skills": {
             "mobile": "Mobil Geliştirme",
             "web": "Web Geliştirme",
@@ -283,7 +331,7 @@
         "contact": {
             "title": "İletişime Geçin",
             "description": "Şu anda yeni fırsatlara açığım. Benimle iletişime geçmekten çekinmeyin!",
-            "availabilityNotice": "Yeni projeler ve fırsatlar için aktif olarak aradığım yapı. Benimle iletişime geçmekten çekinmeyin!",
+            "availabilityNotice": "Uzmanlığımı katkıda bulunabileceğim yeni fırsatlar arıyorum. İletişime geçelim ve olasılıkları keşfedelim!",
             "phone": "Telefon",
             "email": "Email",
             "form": {
